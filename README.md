@@ -1,8 +1,16 @@
-# Praticando
+# 🌟 Praticando
 
-Este repositório serve para que eu desenvolva alguns projetos com o objetivo de aprender ou registrar novos conhecimentos.
+Este repositório é um espaço para eu desenvolver projetos com o objetivo de aprender, testar ideias e registrar novos conhecimentos.
 
-## Projetos
+## 💻 Projetos
 
-### 1. Minhas Recordações
-O primeiro projeto adicionado é **Minhas Recordações**, um sistema desenvolvido em **HTML, CSS e JavaScript** que permite armazenar, diretamente no navegador, pequenas notas sobre qualquer assunto ou lembrança pessoal. Ele funciona como um espaço para guardar recordações de forma prática e rápida, sem necessidade de banco de dados externo.
+### 1. Minhas Recordações 📝
+**Minhas Recordações** é um sistema desenvolvido em **HTML, CSS e JavaScript** que permite armazenar pequenas notas diretamente no navegador.  
+Funciona como um espaço pessoal para guardar lembranças e ideias de forma rápida e prática, sem precisar de banco de dados externo.
+
+**🚀 Veja o projeto online:** [mr-jd.vercel.app](https://mr-jd.vercel.app)
+
+**Funcionalidades principais:**
+- Adicionar notas rapidamente 🖊️
+- Armazenamento local, sem necessidade de login 💾
+- Interface simples e intuitiva 🎨
