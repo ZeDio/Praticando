@@ -85,16 +85,20 @@
 
 
     .form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        background: var(--form-bg);
-        padding: 15px;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px var(--shadow-color);
-        margin-bottom: 20px;
-        transition: background 0.3s, box-shadow 0.3s;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: var(--form-bg);
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    margin-bottom: 20px;
+    width: 100%;       /* ocupa toda a largura do container */
+    max-width: 500px;  /* não fica gigante em telas grandes */
+    margin-left: auto;
+    margin-right: auto; /* centraliza */
+    box-sizing: border-box;
+}
 
     input,
     textarea,
@@ -130,10 +134,13 @@
     }
 
     .notes {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 15px;
-    }
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
     .note {
         background: var(--note-bg);
@@ -201,3 +208,37 @@
         text-decoration: none;
         font-weight: bold;
     }
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem; /* maior */
+    }
+
+    .form {
+        padding: 20px; /* mais espaçamento interno */
+        border-radius: 12px;
+        width: 100%; /* ocupar toda a largura */
+        max-width: 100%; /* tirar limite */
+    }
+
+    input,
+    textarea,
+    button {
+        font-size: 16px; /* maior legibilidade */
+        padding: 14px;   /* maior toque */
+    }
+
+    .notes {
+        grid-template-columns: 1fr; /* 1 coluna no celular */
+        gap: 15px;
+    }
+
+    .theme-toggle {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
