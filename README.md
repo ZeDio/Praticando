@@ -14,3 +14,6 @@ Funciona como um espaço pessoal para guardar lembranças e ideias de forma ráp
 - Adicionar notas rapidamente 🖊️
 - Armazenamento local, sem necessidade de login 💾
 - Interface simples e intuitiva 🎨
+
+### 2. Aprendizados Do Intagram 📝
+**Aprendizados Do Intagram** são alguns videos de progamação aonde aprendo alguma boa pratica, ou alguma novidade na area..

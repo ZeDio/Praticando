@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo</title>
+    <style>
+        .caixa{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #131313;
+            overflow: hidden;
+        }
+        .caixa{
+            position: absolute;
+            top: 20%;
+            height: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circulo{
+            position: absolute;
+            background: transparent;
+            width: calc(var(--i)* 2.5vmin);
+            aspect-ratio: 1;
+            border-radius: 50%;
+            border: 3px solid white;
+            transform-style: preserve-3d;
+            transform: rotateX(70deg) translateZ(50px);
+            animation: animate 3s ease-in-out calc(var(--i) * 0.10s) infinite;
+            
+        }
+        @keyframes animate {
+            0%,
+            100%{
+                transform: rotateX(70deg) translateZ(50px) translateY(0);
+                filter: hue-rotate(0);
+            }
+            50%{
+                transform: rotateX(70deg) translateZ(50px) translateY(-50vmin);
+                filter: hue-rotate(360deg); 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="caixa">
+        <div class="circulo" style="--i:0;"></div>
+        <div class="circulo" style="--i:1;"></div>
+        <div class="circulo" style="--i:2;"></div>
+        <div class="circulo" style="--i:3;"></div>
+        <div class="circulo" style="--i:4;"></div>
+        <div class="circulo" style="--i:5;"></div>
+        <div class="circulo" style="--i:6;"></div>
+    </div>
+</body>
+</html>
