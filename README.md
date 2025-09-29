@@ -15,5 +15,22 @@ Funciona como um espaço pessoal para guardar lembranças e ideias de forma ráp
 - Armazenamento local, sem necessidade de login 💾
 - Interface simples e intuitiva 🎨
 
-### 2. Aprendizados Do Intagram 📝
-**Aprendizados Do Intagram** são alguns videos de progamação aonde aprendo alguma boa pratica, ou alguma novidade na area..
+---
+
+### 2. Aprendizados Do Instagram 📝
+**Aprendizados Do Instagram** são alguns vídeos de programação aonde aprendo alguma boa prática, ou alguma novidade na área.
+
+---
+
+### 3. Gerador de Senhas 🔐
+**Gerador de Senhas** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite criar senhas seguras e personalizadas, com diferentes níveis de dificuldade.  
+O sistema também armazena o histórico de senhas geradas, que pode ser visualizado e gerenciado diretamente no navegador.
+
+**🚀 Veja o projeto online:** [Link do projeto (colocar depois)](#)
+
+**Funcionalidades principais:**
+- Gerar senhas em três níveis: **Fácil**, **Médio** e **Difícil** ⚡  
+- Alternar entre **modo claro** e **modo escuro**, com preferência salva no navegador 🌙☀️  
+- Histórico de senhas geradas com opção de excluir individualmente 🗑️  
+- Armazenamento local usando **LocalStorage** 💾  
+- Interface responsiva e com animações ✨
