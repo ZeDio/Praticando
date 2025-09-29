@@ -26,7 +26,7 @@ Funciona como um espaço pessoal para guardar lembranças e ideias de forma ráp
 **Gerador de Senhas** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite criar senhas seguras e personalizadas, com diferentes níveis de dificuldade.  
 O sistema também armazena o histórico de senhas geradas, que pode ser visualizado e gerenciado diretamente no navegador.
 
-**🚀 Veja o projeto online:** [Link do projeto (colocar depois)](#)
+**🚀 Veja o projeto online:** [https://gs-jd.vercel.app](https://gs-jd.vercel.app/)
 
 **Funcionalidades principais:**
 - Gerar senhas em três níveis: **Fácil**, **Médio** e **Difícil** ⚡  
