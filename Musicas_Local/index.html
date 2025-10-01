@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Storage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./ML.png">
+</head>
+
+<body>
+    <header>
+        <h1>Music Local<small>.JD</small></h1>
+        <div class="buttons">
+            <button onclick="toggleMenu('add')">➕ Adicionar Música</button>
+            <button onclick="toggleMenu('list')">🎵 Ver Playlists</button>
+        </div>
+    </header>
+
+    <!-- Menu adicionar música -->
+    <div id="menu-add" class="menu">
+        <h2>Adicionar Música</h2>
+        <input type="text" id="musicName" placeholder="Nome da música">
+        <input type="file" id="musicFile" accept="audio/mp3">
+        <input type="text" id="playlistName" placeholder="Nome da playlist">
+        <button onclick="addMusic()">Salvar Música</button>
+    </div>
+
+    <!-- Menu lista -->
+    <div id="menu-list" class="menu">
+        <h2>Minhas Playlists</h2>
+        <div id="playlistContainer"></div>
+    </div>
+
+    <footer>
+        © 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a>
+    </footer>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
