@@ -18,7 +18,7 @@ Funciona como um espaço pessoal para guardar lembranças e ideias de forma ráp
 ---
 
 ### 2. Aprendizados Do Instagram 📝
-**Aprendizados Do Instagram** são alguns vídeos de programação aonde aprendo alguma boa prática, ou alguma novidade na área.
+**Aprendizados Do Instagram** são alguns vídeos de programação onde aprendo boas práticas e novidades na área.
 
 ---
 
@@ -34,3 +34,17 @@ O sistema também armazena o histórico de senhas geradas, que pode ser visualiz
 - Histórico de senhas geradas com opção de excluir individualmente 🗑️  
 - Armazenamento local usando **LocalStorage** 💾  
 - Interface responsiva e com animações ✨
+
+---
+
+### 4. Player de Música 🎵
+**Player de Música** é um aplicativo desenvolvido em **HTML, CSS e JavaScript** que permite adicionar músicas diretamente no navegador e tocá-las pelo próprio site.  
+O sistema utiliza **LocalStorage** para armazenar as músicas adicionadas, mantendo-as disponíveis mesmo após fechar o navegador.
+
+**🚀 Veja o projeto online:** [https://ml-jd.vercel.app/](https://ml-jd.vercel.app/)
+
+**Funcionalidades principais:**
+- Adicionar músicas diretamente no navegador 🎶  
+- Tocar e pausar músicas, além de navegar entre elas ⏯️  
+- Armazenamento local usando **LocalStorage** 💾  
+- Interface simples e responsiva, funcional em computadores e celulares 📱💻
