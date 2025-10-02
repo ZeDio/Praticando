@@ -48,3 +48,21 @@ O sistema utiliza **LocalStorage** para armazenar as músicas adicionadas, mante
 - Tocar e pausar músicas, além de navegar entre elas ⏯️  
 - Armazenamento local usando **LocalStorage** 💾  
 - Interface simples e responsiva, funcional em computadores e celulares 📱💻
+
+---
+
+### 5. Agenda Financeira 📊
+**Agenda Financeira** é um sistema desenvolvido em **HTML, CSS e JavaScript** que permite organizar ganhos e despesas de forma simples e prática.  
+Tudo é salvo no **LocalStorage**, garantindo que as informações permaneçam disponíveis mesmo após fechar o navegador.
+
+**🚀 Veja o projeto online:** [https://af-jd.vercel.app/](https://af-jd.vercel.app/)
+
+**Funcionalidades principais:**
+- Cadastrar **ganhos** e **despesas** rapidamente ➕➖  
+- Exibir tabela com resumo das movimentações 📑  
+- Modo edição para exclusão de registros ❌  
+- Botão para **copiar tabela completa** 📋  
+- Alternar entre **modo claro e escuro** 🌙☀️  
+- Dicas financeiras exibidas em carrossel automático 💡  
+- Armazenamento local usando **LocalStorage** 💾  
+- Interface responsiva, organizada e animada ✨
