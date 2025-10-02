@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Financeira</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./AF.jd.png">
+</head>
+
+<body>
+    <header>
+        <h1>Agenda Financeira<Small>.JD</Small></h1>
+    </header>
+    <div class="buttons">
+        <button onclick="showModal('despesa')">Cadastrar Despesa</button>
+        <button onclick="showModal('ganho')">Cadastrar Ganho</button>
+    </div>
+    <!-- Modals -->
+    <div id="despesa-modal" class="modal">
+        <h3>Nova Despesa</h3>
+        <input id="despesa-nome" placeholder="Nome da despesa">
+        <input id="despesa-valor" type="number" placeholder="Valor">
+        <button onclick="addItem('despesa')">Adicionar</button>
+        <button onclick="hideModal('despesa')">Cancelar</button>
+    </div>
+    <div id="ganho-modal" class="modal">
+        <h3>Novo Ganho</h3>
+        <input id="ganho-nome" placeholder="Nome do ganho">
+        <input id="ganho-valor" type="number" placeholder="Valor">
+        <button onclick="addItem('ganho')">Adicionar</button>
+        <button onclick="hideModal('ganho')">Cancelar</button>
+    </div>
+    <!-- Tabela -->
+    <div class="table-container" id="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo</th>
+                    <th>Nome</th>
+                    <th>Valor</th>
+                    <th class="edit-col">❌</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <div class="summary" id="summary"></div>
+        <div class="table-actions">
+            <button onclick="copyTable()">📋 Copiar Tabela</button>
+            <button onclick="toggleEdit()">✏️ Editar Tabela</button>
+        </div>
+    </div>
+    <div class="carousel" id="carousel"></div>
+    <footer>
+        <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+    </footer>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+    <script src="./script.js"></script>
+</body>
+
+</html>
