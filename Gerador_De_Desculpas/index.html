@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Gerador de Desculpas Aleatórias</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./GDA.jd.png">
+</head>
+
+<body>
+    <div class="wrap" role="main">
+        <header>
+            <h1>Gerador de Desculpas Aleatórias<small>.JD</small></h1>
+            <p class="lead">Clique em gerar e se divirta — desculpas prontas para qualquer situação.</p>
+        </header>
+
+        <div class="phrase-box" aria-live="polite">
+            <div class="phrase" id="phrase">Clique em "Gerar desculpa" para começar.</div>
+        </div>
+
+        <div class="generator">
+            <button class="btn" id="generate">Gerar desculpa</button>
+            <button class="btn" id="history">Últimas 10</button>
+        </div>
+
+        <footer>
+            <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+        </footer>
+    </div>
+
+    <div class="modal-backdrop" id="modal" aria-hidden="true">
+        <div class="modal-surface" role="dialog" aria-labelledby="modalTitle">
+            <div class="modal-header">
+                <div>
+                    <strong id="modalTitle">10 últimas frases geradas</strong>
+                    <div style="font-size:12px;color:var(--muted)">Armazenado localmente</div>
+                </div>
+                <div>
+                    <button class="btn" id="modalClose">Fechar</button>
+                </div>
+            </div>
+            <div class="modal-list" id="modalList"></div>
+        </div>
+    </div>
+
+    <button class="theme-toggle" id="toggleTheme" aria-pressed="false"
+        title="Trocar tema (salvo localmente)">🌙</button>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
