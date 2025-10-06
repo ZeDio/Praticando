@@ -66,3 +66,21 @@ Tudo é salvo no **LocalStorage**, garantindo que as informações permaneçam d
 - Dicas financeiras exibidas em carrossel automático 💡  
 - Armazenamento local usando **LocalStorage** 💾  
 - Interface responsiva, organizada e animada ✨
+
+
+---
+
+
+### 6. Gerador de Desculpas Aleatórias 🤣
+**Gerador de Desculpas Aleatórias** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que gera desculpas engraçadas aleatórias com apenas um clique.  
+O objetivo é se divertir e aprender manipulação de arrays, seleção aleatória e interação com o DOM.
+
+**🚀 Veja o projeto online:** [https://gda-jd.vercel.app/](https://gda-jd.vercel.app/)
+
+**Funcionalidades principais:**
+- Gerar desculpas engraçadas aleatórias com um botão 🎯  
+- Categorias de desculpas: **trabalho, escola, namoro** 🏫💼💘  
+- Botão para **copiar a frase** para a área de transferência 📋  
+- Modo “compartilhar” (gera link ou print) 🔗  
+- Interface divertida, com pequenas animações e efeitos sonoros ✨  
+- Aprendizado de manipulação de arrays, DOM e eventos JavaScript 🖥️
