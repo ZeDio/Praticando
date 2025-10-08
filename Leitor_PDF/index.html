@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>PDF_TO_TEXT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./PPT.jd.png">
+</head>
+
+<body>
+    <h1>P.P.T<small>.JD</small></h1>
+    <div class="container">
+        <label for="file">📂 Selecionar PDF</label>
+        <input type="file" id="file" accept="application/pdf">
+        <button class="btn" id="extract">Extrair Texto</button>
+        <textarea id="output" placeholder="O texto extraído aparecerá aqui..."></textarea>
+        <div class="actions">
+            <button class="btn" id="copy">Copiar</button>
+            <button class="btn" id="download">Baixar .txt</button>
+            <button class="btn" id="clear">Limpar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
