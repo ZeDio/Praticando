@@ -84,3 +84,20 @@ O objetivo é se divertir e aprender manipulação de arrays, seleção aleatór
 - Modo “compartilhar” (gera link ou print) 🔗  
 - Interface divertida, com pequenas animações e efeitos sonoros ✨  
 - Aprendizado de manipulação de arrays, DOM e eventos JavaScript 🖥️
+
+
+---
+
+
+### 7. Conversor de PDF para Texto 📄  
+**Conversor de PDF para Texto** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite extrair o conteúdo textual de arquivos PDF diretamente no navegador.  
+Possui um **design dark com efeito glassmorphism**, interface moderna e totalmente **responsiva** para computadores e celulares.
+
+**🚀 Veja o projeto online:** [https://ppt-jd.vercel.app/](https://ppt-jd.vercel.app/)
+
+**Funcionalidades principais:**  
+- Fazer **upload de arquivos PDF** e extrair o texto automaticamente 📂  
+- **Exibir o texto extraído** na tela para leitura ou edição 📝  
+- Opções para **copiar, limpar ou baixar** o conteúdo em formato `.txt` 💾  
+- Interface moderna com **efeito glassmorphism** e tema escuro 🌙  
+- Totalmente **responsivo** e adaptável para PC e celular 📱💻
