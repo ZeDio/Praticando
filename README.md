@@ -101,3 +101,22 @@ Possui um **design dark com efeito glassmorphism**, interface moderna e totalmen
 - Opções para **copiar, limpar ou baixar** o conteúdo em formato `.txt` 💾  
 - Interface moderna com **efeito glassmorphism** e tema escuro 🌙  
 - Totalmente **responsivo** e adaptável para PC e celular 📱💻
+
+
+---
+
+
+
+### 8. Gerador de Códigos de Barras e QR Codes 🧾  
+**Gerador de Códigos de Barras e QR Codes** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite criar rapidamente **códigos de barras** e **QR Codes personalizados**.  
+O sistema conta com **tema dark com efeito glassmorphism**, **animações suaves**, e um botão para alternar entre **modo claro e escuro** — tudo responsivo para PC e celular.
+
+**🚀 Veja o projeto online:** [https://gqr-jd.vercel.app/](https://gqr-jd.vercel.app/)
+
+**Funcionalidades principais:**  
+- Gerar **códigos de barras (JsBarcode)** ou **QR Codes (QRCode.js)** automaticamente 📦  
+- Permitir **download em PNG** dos códigos gerados 💾  
+- Opções para **personalizar cor e tamanho** 🎨  
+- Alternar entre **modo escuro e claro** com transição suave 🌙☀️  
+- Design com **Glassmorphism**, **animações suaves** e **layout responsivo** ✨  
+- **Footer fixo** com direitos autorais para **JOSE DIOGO** 🖋️ 
