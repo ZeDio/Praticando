@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QR</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./GQR.png">
+</head>
+
+<body class="dark">
+
+    <div class="container glass">
+        <h1>Gerador de QR<small>.JD</small></h1><br>
+        <p>Digite um texto ou URL para gerar:</p><br>
+
+        <input type="text" id="inputText" placeholder="Digite aqui...">
+
+        <div class="buttons">
+            <button id="generateBarcode">Gerar Código de Barras</button>
+            <button id="generateQR">Gerar QR Code</button>
+        </div>
+
+        <div class="options">
+            <label>Cor: <input type="color" id="colorPicker" value="#ffffff"></label>
+            <label>Tamanho: <input type="range" id="sizeRange" min="100" max="300" value="200"></label>
+        </div>
+
+        <div class="result" id="result"></div>
+
+        <button id="downloadBtn" class="download hidden">Baixar PNG</button>
+    </div>
+
+    <button id="themeToggle" class="theme-btn">🌙</button>
+
+    <footer>
+        <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+    </footer>
+
+    <script src="JsBarcode.all.min.js"></script>
+    <script src="qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
