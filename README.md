@@ -135,3 +135,23 @@ O sistema conta com **tema dark com efeito glassmorphism**, **animações suaves
 - Alternar entre **modo escuro e claro** com transição suave 🌙☀️  
 - Design com **Glassmorphism**, **animações suaves** e **layout responsivo** ✨  
 - **Footer fixo** com direitos autorais para **JOSE DIOGO** 🖋️ 
+
+
+
+---
+
+
+### 9. Gerador de Exercícios Matemáticos ➗🧮
+**Gerador de Exercícios Matemáticos** é uma aplicação interativa desenvolvida em **HTML, CSS e JavaScript** que cria desafios automáticos de matemática com tempo limitado e pontuação dinâmica.  
+Ideal para treinar cálculos mentais e raciocínio rápido, com design moderno e modo escuro/claro.
+
+**🚀 Veja o projeto online:** [https://gem-jd.vercel.app/](https://gem-jd.vercel.app/)
+
+**Funcionalidades principais:**  
+- Gerar exercícios de **Soma, Subtração, Multiplicação e Divisão** ➕➖✖️➗  
+- Selecionar nível de dificuldade: **Fácil**, **Médio** ou **Difícil** ⚡  
+- **Cronômetro regressivo** de 10 segundos ⏱️  
+- Sistema de **pontuação e feedback sonoro** 🎯🔊  
+- **Histórico de respostas** com acertos e erros 📊  
+- Alternar entre **modo escuro e claro** 🌙☀️  
+- Design com **Glassmorphism**, **animações suaves** e **interface responsiva** ✨
