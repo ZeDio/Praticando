@@ -15,12 +15,20 @@ Funciona como um espaço pessoal para guardar lembranças e ideias de forma ráp
 - Armazenamento local, sem necessidade de login 💾
 - Interface simples e intuitiva 🎨
 
+
+
 ---
+
+
 
 ### 2. Aprendizados Do Instagram 📝
 **Aprendizados Do Instagram** são alguns vídeos de programação onde aprendo boas práticas e novidades na área.
 
+
+
 ---
+
+
 
 ### 3. Gerador de Senhas 🔐
 **Gerador de Senhas** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite criar senhas seguras e personalizadas, com diferentes níveis de dificuldade.  
@@ -35,7 +43,11 @@ O sistema também armazena o histórico de senhas geradas, que pode ser visualiz
 - Armazenamento local usando **LocalStorage** 💾  
 - Interface responsiva e com animações ✨
 
+
+
 ---
+
+
 
 ### 4. Player de Música 🎵
 **Player de Música** é um aplicativo desenvolvido em **HTML, CSS e JavaScript** que permite adicionar músicas diretamente no navegador e tocá-las pelo próprio site.  
@@ -49,7 +61,11 @@ O sistema utiliza **LocalStorage** para armazenar as músicas adicionadas, mante
 - Armazenamento local usando **LocalStorage** 💾  
 - Interface simples e responsiva, funcional em computadores e celulares 📱💻
 
+
+
 ---
+
+
 
 ### 5. Agenda Financeira 📊
 **Agenda Financeira** é um sistema desenvolvido em **HTML, CSS e JavaScript** que permite organizar ganhos e despesas de forma simples e prática.  
@@ -104,7 +120,6 @@ Possui um **design dark com efeito glassmorphism**, interface moderna e totalmen
 
 
 ---
-
 
 
 ### 8. Gerador de Códigos de Barras e QR Codes 🧾  

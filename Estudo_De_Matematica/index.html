@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Exercícios Matemáticos</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./GEM.jd.png">
+</head>
+
+<body>
+
+    <h1>Gerador de Exercícios Matemáticos<small>.JD</small></h1>
+
+    <div class="container">
+        <label for="operation">Operação:</label>
+        <select id="operation">
+            <option value="add">Soma (+)</option>
+            <option value="sub">Subtração (−)</option>
+            <option value="mul">Multiplicação (×)</option>
+            <option value="div">Divisão (÷)</option>
+        </select>
+
+        <label for="difficulty">Dificuldade:</label>
+        <select id="difficulty">
+            <option value="easy">Fácil</option>
+            <option value="medium">Médio</option>
+            <option value="hard">Difícil</option>
+        </select>
+
+        <button id="start">Começar</button>
+        <p id="score" style="margin-top: 15px;">Pontuação: 0</p>
+    </div>
+
+    <div class="question-popup" id="popup">
+        <div class="popup-content">
+            <h2 id="question-text"></h2>
+            <div class="timer" id="timer">⏱️ 10s</div>
+            <input type="number" id="answer" placeholder="Sua resposta..." />
+            <div style="margin-top: 15px;">
+                <button id="submit">Enviar</button>
+                <button id="close">Sair</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="history-popup" id="history-popup">
+        <div class="popup-content">
+            <h2>📊 Histórico</h2>
+            <ul id="history-list" style="list-style:none; text-align:left; margin-top:10px;"></ul>
+            <button id="close-history" style="margin-top:15px;">Fechar</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+    </footer>
+
+    <button id="theme-toggle">🌙</button>
+    <button id="history-btn">📜 Histórico</button>
+
+    <audio id="sound-correct"
+        src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_4e3a1b8a0d.mp3?filename=success-1-6297.mp3"></audio>
+    <audio id="sound-wrong"
+        src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_f48b2c36cd.mp3?filename=error-2-126514.mp3"></audio>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
