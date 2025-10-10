@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Diário Pessoal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./DP.jd.png">
+</head>
+
+<body>
+    <div class="app card" id="app">
+        <!-- login / setup -->
+        <div id="loginView" class="login-wrap">
+            <h1>Diário Pessoal<small>. JD</small></h1>
+            <p class="muted">Proteja suas memórias com um nome e senha (armazenamento local, criptografado).</p>
+            <div id="setupBox">
+                <label>Nome do diário</label>
+                <input id="setupName" type="text" placeholder="Ex: Diário da Ana" />
+                <label>Defina sua senha</label>
+                <input id="setupPwd" type="password" placeholder="Senha forte" />
+                <label class="muted">Confirmar senha</label>
+                <input id="setupPwd2" type="password" placeholder="Repita a senha" />
+                <div style="height:8px"></div>
+                <button id="btnSetup">Criar diário</button>
+            </div>
+            <div id="loginBox" style="display:none;margin-top:12px">
+                <label>Nome do diário</label>
+                <input id="loginName" type="text" placeholder="Nome do diário" />
+                <label>Senha</label>
+                <input id="loginPwd" type="password" placeholder="Senha" />
+                <div style="height:8px"></div>
+                <button id="btnLogin">Entrar</button>
+                <button id="btnReset" style="background:#f46b6b">Resetar diário (apaga tudo)</button>
+            </div>
+        </div>
+
+        <!-- diary -->
+        <div id="diaryView" style="display:none">
+            <div class="header">
+                <div>
+                    <h1 id="diaryTitle">Meu Diário<small>. JD</small></h1>
+                    <div class="muted">Bem-vindo — suas notas ficam somente no seu navegador.</div>
+                </div>
+                <div class="row">
+                    <div class="search" style="display:flex;gap:8px;align-items:center">
+                        <input id="filterDate" type="date" />
+                        <input id="searchText" placeholder="Buscar texto..." type="text" />
+                        <button id="btnSearch">Buscar</button>
+                    </div>
+                    <div id="statsBox" class="row"></div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-bottom:12px">
+                <div style="flex:1">
+                    <button id="btnNew">+ Nova nota</button>
+                    <button id="btnExport">Exportar (PDF / Imprimir)</button>
+                    <button id="btnLock">Sair</button>
+                </div>
+            </div>
+
+            <div class="entries" id="entries"></div>
+            <footer>
+                <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <!-- popup -->
+    <div id="overlay" class="overlay">
+        <div class="popup" role="dialog" aria-modal="true">
+            <h3 id="popupTitle">Nova nota</h3>
+            <label>Título</label>
+            <input id="noteTitle" type="text" placeholder="Título (opcional)" />
+            <label>Conteúdo</label>
+            <textarea id="noteBody" rows="6" placeholder="Escreva aqui..."></textarea>
+            <label>Humor (1-5)</label>
+            <input id="noteMood" type="range" min="1" max="5" value="3" /> <span id="moodVal">3</span>
+            <div class="actions">
+                <button id="btnCancel"
+                    style="background:transparent;border:1px solid rgba(0,0,0,0.12);color:var(--text)">Cancelar</button>
+                <button id="btnSave">Salvar nota</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- theme button -->
+    <button id="themeBtn" class="theme-toggle">Tema</button>
+
+    <!-- floating add -->
+    <button class="fab" id="fab">+</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
