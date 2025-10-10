@@ -155,3 +155,28 @@ Ideal para treinar cálculos mentais e raciocínio rápido, com design moderno e
 - **Histórico de respostas** com acertos e erros 📊  
 - Alternar entre **modo escuro e claro** 🌙☀️  
 - Design com **Glassmorphism**, **animações suaves** e **interface responsiva** ✨
+
+
+
+---
+
+
+
+### 10. Diário Interativo 📔✨
+**Diário Interativo** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite escrever, buscar e gerenciar notas pessoais diretamente no navegador.  
+O projeto combina **armazenamento local**, **personalização de tema** e **interface moderna**, criando uma experiência fluida e visualmente agradável.
+
+**🚀 Veja o projeto online:** [https://dp-jd.vercel.app/](https://dp-jd.vercel.app/)
+
+**Funcionalidades principais:**  
+- Inserir, editar e excluir notas facilmente 📝  
+- Buscar notas por título 🔍  
+- Armazenamento local com **LocalStorage** 💾  
+- **Tema personalizado escuro** com inputs e botões integrados 🎨  
+- O nome do diário é **salvo automaticamente**, aparecendo ao recarregar a página 💬  
+- Layout com **margem superior ajustada**, evitando que o cabeçalho suma 📏  
+- Interface moderna, responsiva e fluida 💫
+
+
+
+---
