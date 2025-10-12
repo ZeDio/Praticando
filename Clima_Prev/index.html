@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./CP.jd.png">
+</head>
+
+<body>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Informe sua cidade 🌎</h2>
+            <input type="text" id="cityInput" placeholder="Ex: São Paulo">
+            <button id="searchBtn">Buscar</button>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">ou permita o acesso à sua localização</p>
+        </div>
+    </div>
+
+    <div class="weather">
+        <h1 id="city">Carregando...</h1>
+        <img id="icon" class="icon" src="" alt="">
+        <p id="temp"></p>
+        <p id="desc"></p>
+    </div>
+
+    <footer>
+        <p>© 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a></p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
