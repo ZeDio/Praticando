@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projetinhos Links</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./PL.jd.png">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="left">
+                <h1>Projetinhos Links<small>. JD</small></h1>
+                <div class="search-wrapper" id="searchWrapper">
+                    <div class="search-icon" id="searchIcon">🔍</div>
+                    <input type="text" id="search" class="search-input" placeholder="Buscar..."
+                        aria-label="Buscar links" />
+                </div>
+            </div>
+            <button id="addBtn" class="btn">+ Adicionar Link</button>
+        </header>
+
+        <main>
+            <div id="grid" class="grid" aria-live="polite"></div>
+            <div id="empty" style="display:none;color:var(--muted);margin-top:20px;">Nenhum link adicionado ainda..
+            </div>
+        </main>
+
+        <footer>
+            © 2025 Todos os direitos reservados a <a href="https://github.com/ZeDio">José Diogo</a>
+        </footer>
+    </div>
+
+    <div class="theme-toggle" id="toggleTheme">🌗</div>
+
+    <div id="overlay" class="overlay" aria-hidden="true">
+        <div class="modal" role="dialog" aria-modal="true">
+            <h2 id="modalTitle">Adicionar Link</h2>
+            <form id="form">
+                <input id="name" placeholder="Nome do link" required />
+                <input id="url" placeholder="https://exemplo.com" required />
+                <input id="category" placeholder="Categoria (opcional)" />
+                <input id="colorInput" type="color" value="#6366f1" />
+                <input type="hidden" id="editingId" />
+                <div style="display:flex;justify-content:flex-end;gap:8px;margin-top:8px">
+                    <button type="button" id="cancel" class="btn"
+                        style="background:var(--muted);color:var(--bg);">Cancelar</button>
+                    <button type="submit" id="saveBtn" class="btn">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
