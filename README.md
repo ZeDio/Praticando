@@ -4,17 +4,22 @@ Este repositório é um espaço para eu desenvolver projetos com o objetivo de a
 
 ## 💻 Projetos
 
-### 1. Minhas Recordações 📝
-**Minhas Recordações** é um sistema desenvolvido em **HTML, CSS e JavaScript** que permite armazenar pequenas notas diretamente no navegador.  
-Funciona como um espaço pessoal para guardar lembranças e ideias de forma rápida e prática, sem precisar de banco de dados externo.
+### 1. Projetinhos Links 🔗🧩  
+**Projetinhos Links** é um organizador minimalista desenvolvido em **HTML, CSS e JavaScript** que permite salvar, editar, excluir e buscar seus links favoritos diretamente no navegador.  
+Tudo é salvo localmente com **LocalStorage**, e o design combina **minimalismo**, **Glassmorphism**, **animações suaves** e **modo escuro/claro**.  
 
-**🚀 Veja o projeto online:** [mr-jd.vercel.app](https://mr-jd.vercel.app)
+**🚀 Veja o projeto online:** [https://pl-jd.vercel.app/](https://pl-jd.vercel.app/)  
 
-**Funcionalidades principais:**
-- Adicionar notas rapidamente 🖊️
-- Armazenamento local, sem necessidade de login 💾
-- Interface simples e intuitiva 🎨
-
+**Funcionalidades principais:**  
+- Adicionar, editar e excluir links 🔗  
+- Busca retrátil com animação suave 🔍  
+- Links com ícone lateral e animação ao passar o mouse ✨  
+- Animação de saída ao deletar link ❌  
+- **Tema escuro** (#131313 com detalhes brancos) e **tema claro** suave 🌙☀️  
+- Botão de alternar tema com **Glassmorphism**, fixo no canto inferior esquerdo 💫  
+- **Footer fixo** com créditos para **José Diogo** 🖋️  
+- Interface **minimalista e totalmente responsiva** 📱💻  
+- Links pré-definidos (GitHub, Figma, Stack Overflow, Dribbble e MDN) adicionados na primeira execução ⚙️ 
 
 
 ---
@@ -34,7 +39,7 @@ Funciona como um espaço pessoal para guardar lembranças e ideias de forma ráp
 **Gerador de Senhas** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite criar senhas seguras e personalizadas, com diferentes níveis de dificuldade.  
 O sistema também armazena o histórico de senhas geradas, que pode ser visualizado e gerenciado diretamente no navegador.
 
-**🚀 Veja o projeto online:** [https://gs-jd.vercel.app](https://gs-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Gerador de Senhas 🔐](https://github.com/ZeDio/Praticando/tree/main/Gerador_De_Senhas)
 
 **Funcionalidades principais:**
 - Gerar senhas em três níveis: **Fácil**, **Médio** e **Difícil** ⚡  
@@ -53,7 +58,7 @@ O sistema também armazena o histórico de senhas geradas, que pode ser visualiz
 **Player de Música** é um aplicativo desenvolvido em **HTML, CSS e JavaScript** que permite adicionar músicas diretamente no navegador e tocá-las pelo próprio site.  
 O sistema utiliza **LocalStorage** para armazenar as músicas adicionadas, mantendo-as disponíveis mesmo após fechar o navegador.
 
-**🚀 Veja o projeto online:** [https://ml-jd.vercel.app/](https://ml-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Player de Música 🎵](https://github.com/ZeDio/Praticando/tree/main/Musicas_Local)
 
 **Funcionalidades principais:**
 - Adicionar músicas diretamente no navegador 🎶  
@@ -71,7 +76,7 @@ O sistema utiliza **LocalStorage** para armazenar as músicas adicionadas, mante
 **Agenda Financeira** é um sistema desenvolvido em **HTML, CSS e JavaScript** que permite organizar ganhos e despesas de forma simples e prática.  
 Tudo é salvo no **LocalStorage**, garantindo que as informações permaneçam disponíveis mesmo após fechar o navegador.
 
-**🚀 Veja o projeto online:** [https://af-jd.vercel.app/](https://af-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Agenda Financeira 📊](https://github.com/ZeDio/Praticando/tree/main/Agenda_Financeira)
 
 **Funcionalidades principais:**
 - Cadastrar **ganhos** e **despesas** rapidamente ➕➖  
@@ -91,7 +96,7 @@ Tudo é salvo no **LocalStorage**, garantindo que as informações permaneçam d
 **Gerador de Desculpas Aleatórias** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que gera desculpas engraçadas aleatórias com apenas um clique.  
 O objetivo é se divertir e aprender manipulação de arrays, seleção aleatória e interação com o DOM.
 
-**🚀 Veja o projeto online:** [https://gda-jd.vercel.app/](https://gda-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Gerador de Desculpas Aleatórias 🤣](https://github.com/ZeDio/Praticando/tree/main/Gerador_De_Desculpas)
 
 **Funcionalidades principais:**
 - Gerar desculpas engraçadas aleatórias com um botão 🎯  
@@ -109,7 +114,7 @@ O objetivo é se divertir e aprender manipulação de arrays, seleção aleatór
 **Conversor de PDF para Texto** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite extrair o conteúdo textual de arquivos PDF diretamente no navegador.  
 Possui um **design dark com efeito glassmorphism**, interface moderna e totalmente **responsiva** para computadores e celulares.
 
-**🚀 Veja o projeto online:** [https://ppt-jd.vercel.app/](https://ppt-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Conversor de PDF para Texto 📄](https://github.com/ZeDio/Praticando/tree/main/Leitor_PDF)
 
 **Funcionalidades principais:**  
 - Fazer **upload de arquivos PDF** e extrair o texto automaticamente 📂  
@@ -126,7 +131,7 @@ Possui um **design dark com efeito glassmorphism**, interface moderna e totalmen
 **Gerador de Códigos de Barras e QR Codes** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite criar rapidamente **códigos de barras** e **QR Codes personalizados**.  
 O sistema conta com **tema dark com efeito glassmorphism**, **animações suaves**, e um botão para alternar entre **modo claro e escuro** — tudo responsivo para PC e celular.
 
-**🚀 Veja o projeto online:** [https://gqr-jd.vercel.app/](https://gqr-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Gerador de Códigos de Barras e QR Codes 🧾](https://github.com/ZeDio/Praticando/tree/main/Gerador_QR)
 
 **Funcionalidades principais:**  
 - Gerar **códigos de barras (JsBarcode)** ou **QR Codes (QRCode.js)** automaticamente 📦  
@@ -145,7 +150,7 @@ O sistema conta com **tema dark com efeito glassmorphism**, **animações suaves
 **Gerador de Exercícios Matemáticos** é uma aplicação interativa desenvolvida em **HTML, CSS e JavaScript** que cria desafios automáticos de matemática com tempo limitado e pontuação dinâmica.  
 Ideal para treinar cálculos mentais e raciocínio rápido, com design moderno e modo escuro/claro.
 
-**🚀 Veja o projeto online:** [https://gem-jd.vercel.app/](https://gem-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Gerador de Exercícios Matemáticos ➗🧮](https://github.com/ZeDio/Praticando/tree/main/Estudo_De_Matematica)
 
 **Funcionalidades principais:**  
 - Gerar exercícios de **Soma, Subtração, Multiplicação e Divisão** ➕➖✖️➗  
@@ -166,7 +171,7 @@ Ideal para treinar cálculos mentais e raciocínio rápido, com design moderno e
 **Diário Interativo** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que permite escrever, buscar e gerenciar notas pessoais diretamente no navegador.  
 O projeto combina **armazenamento local**, **personalização de tema** e **interface moderna**, criando uma experiência fluida e visualmente agradável.
 
-**🚀 Veja o projeto online:** [https://dp-jd.vercel.app/](https://dp-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Diário Interativo 📔✨](https://github.com/ZeDio/Praticando/tree/main/Diario_Pessoal)
 
 **Funcionalidades principais:**  
 - Inserir, editar e excluir notas facilmente 📝  
@@ -187,7 +192,7 @@ O projeto combina **armazenamento local**, **personalização de tema** e **inte
 **Previsão do Tempo + Localização** é uma aplicação desenvolvida em **HTML, CSS e JavaScript** que exibe o clima atual com base na localização do usuário (via `navigator.geolocation`) ou por busca manual de cidade.  
 Os dados são obtidos pela **API do OpenWeatherMap**, com fundo animado e transições suaves conforme o tipo de clima.
 
-**🚀 Veja o projeto online:** [https://cp-jd.vercel.app/](https://cp-jd.vercel.app/)
+**🚀 Veja o projeto no github:** [Previsão do Tempo + Localização 🌦️📍](https://github.com/ZeDio/Praticando/tree/main/Clima_Prev)
 
 **Funcionalidades principais:**  
 - Detectar automaticamente a **localização do usuário** 🌍  
@@ -204,22 +209,16 @@ Os dados são obtidos pela **API do OpenWeatherMap**, com fundo animado e transi
 
 
 
-### 12. Projetinhos Links 🔗🧩  
-**Projetinhos Links** é um organizador minimalista desenvolvido em **HTML, CSS e JavaScript** que permite salvar, editar, excluir e buscar seus links favoritos diretamente no navegador.  
-Tudo é salvo localmente com **LocalStorage**, e o design combina **minimalismo**, **Glassmorphism**, **animações suaves** e **modo escuro/claro**.  
+### 12. Minhas Recordações 📝
+**Minhas Recordações** é um sistema desenvolvido em **HTML, CSS e JavaScript** que permite armazenar pequenas notas diretamente no navegador.  
+Funciona como um espaço pessoal para guardar lembranças e ideias de forma rápida e prática, sem precisar de banco de dados externo.
 
-**🚀 Veja o projeto online:** [https://pl-jd.vercel.app/](https://pl-jd.vercel.app/)  
+**🚀 Veja o projeto no github:** [Minhas Recordações 📝](https://github.com/ZeDio/Praticando/tree/main/Minhas_Recordacoes)
 
-**Funcionalidades principais:**  
-- Adicionar, editar e excluir links 🔗  
-- Busca retrátil com animação suave 🔍  
-- Links com ícone lateral e animação ao passar o mouse ✨  
-- Animação de saída ao deletar link ❌  
-- **Tema escuro** (#131313 com detalhes brancos) e **tema claro** suave 🌙☀️  
-- Botão de alternar tema com **Glassmorphism**, fixo no canto inferior esquerdo 💫  
-- **Footer fixo** com créditos para **José Diogo** 🖋️  
-- Interface **minimalista e totalmente responsiva** 📱💻  
-- Links pré-definidos (GitHub, Figma, Stack Overflow, Dribbble e MDN) adicionados na primeira execução ⚙️  
+**Funcionalidades principais:**
+- Adicionar notas rapidamente 🖊️
+- Armazenamento local, sem necessidade de login 💾
+- Interface simples e intuitiva 🎨  
 
 
 
